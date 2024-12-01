@@ -1,0 +1,15 @@
+body {
+    margin: 0px;
+    background-color: rgb(26, 26, 29);
+}
+
+.contenido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.envoltorio-general {
+    width: 1013px;
+    background-color: rgb(55, 58, 66);
+}

@@ -1,0 +1,110 @@
+@media (max-width: 615px) {
+
+    .cabecera {
+        grid-template-columns: 1fr;
+        height: 100%;
+        padding: 30px 0px 30px 0px;
+    }
+
+    .columna-1 {
+        justify-self: center;
+    }
+
+    .cabecera >.columna-1 img {
+        width: 250px;
+        height: 100%;
+        background-color: black;
+        padding: 20px;
+    }
+
+    .cabecera > .columna-2 > .texto-suelto {
+        justify-self: center;
+        font-size: 30px;
+        padding: 10px 0px;
+    }
+    .cabecera > .columna-2 > .links {
+        flex-direction: column;
+        height: 100%;
+        padding: 10px 0px;
+    }
+
+    .cabecera > .columna-2 > .links > .link {
+        font-size: 23px;
+        padding: 10px 0px;
+    }
+
+    .cabecera > .columna-2 > .links > .link a {
+        padding-left: 0px;
+    }
+    .cabecera > .columna-3 {
+        justify-self: center;
+        padding: 10px 0px;
+    }
+
+    .cabecera > .columna-3 > .boton {
+        font-size: 25px;
+        padding-bottom: 35px;
+    }
+
+    .cabecera > .columna-4 {
+        grid-template-columns: 1fr;
+    }
+
+    .cabecera > .columna-4  button {
+        font-size: 25px;
+        margin: 5px 0px;
+    }
+
+    .cabecera > .columna-4 > .lupa i {
+        font-size: 40px;
+        margin: 5px 0px;
+        padding: 6px 0px 6px 0px;
+    }
+
+    .cabecera > .columna-4 > .lupa i:hover {
+        font-size: 30px;
+        margin: 5px 0px;
+        padding: 11px 0px 11px 0px;
+    }
+
+
+    .cuerpo {
+        grid-template-columns: 1fr;
+        padding: 0px 0px;
+        margin:  10px 0px;
+        box-shadow: inset 60px 60px 200px -10px rgb(17, 18, 20)
+    }
+
+    .cuerpo > .texto-imagen {
+        padding: 10px 55px;
+        margin: 0px;
+    }
+    
+    .cuerpo > .izquierda > #texto-grande {
+        padding: 35px 15px 15px 15px;
+        text-align: center;
+        margin: 0px;
+    }
+
+    .cuerpo > .izquierda > #texto-pequeno {
+        padding: 15px;
+        text-align: center;
+        margin: 0px;
+    }
+
+    .cuerpo > .izquierda > .links-cuerpo {
+        justify-content: center;
+    }
+
+    .pie-pagina {
+        grid-template-columns: 1fr;
+        padding: 30px 10px;
+        margin: 10px;
+    }
+
+    .pie-pagina > .grid-item {
+        font-size: 25px;
+    }
+
+    
+}

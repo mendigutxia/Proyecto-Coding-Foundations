@@ -1,0 +1,110 @@
+.cuerpo {
+    background-color: rgb(64, 67, 77);
+    padding: 20px 0px 0px 46px;
+    box-shadow: inset -540px -100px 200px -10px rgb(17, 18, 20);
+    display: grid;
+    grid-template-columns: 1fr 0.8fr;
+}
+
+.cuerpo > .izquierda > #texto-grande {
+    color:  white;
+    font-family: "Lato", sans-serif;
+    font-size: 1.8em;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    padding-top: 24px;
+    padding-bottom: 9px;
+    padding-right: 20px;
+    margin: 0px;
+}
+
+#negrita {
+    font-weight: 700;
+}
+
+.cuerpo img {
+    width: 29px;
+    height: auto;
+}
+
+.cuerpo > .izquierda >  #texto-pequeno {
+    color:  rgb(171, 171, 171);
+    font-family: "Lato", sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    letter-spacing: 0px;
+    padding-top: 9px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    margin: 0px;
+}
+
+.cuerpo > .izquierda >.links-cuerpo {
+    height: 88px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-bottom: 15px;
+    /* padding: 2px; */
+}
+
+.cuerpo > .izquierda > .links-cuerpo > .sing-free p {
+    color: black;
+    background-color: rgb(75, 206,121);
+    font-family: 'Lato', sans-serif;
+    font-size:26px;
+    font-weight: 505;
+    text-align: center;
+    padding: 12px 19px;
+    border-radius: 3px;
+    margin-right: 6px;
+}
+
+.cuerpo > .izquierda > .links-cuerpo > .sing-free a {
+    text-decoration: none;
+}
+
+.cuerpo > .izquierda > .links-cuerpo > .learn p {
+    color: white;
+    background-color: black;
+    font-family: 'Lato', sans-serif;
+    font-size:26px;
+    font-weight: 505;
+    text-align: center;
+    padding: 12px 19px;
+    border-radius: 3px;
+    margin-left: 6px;
+}
+
+.cuerpo > .izquierda > .links-cuerpo > .learn a {
+    text-decoration: none;
+}
+
+.cuerpo > .texto-imagen  {
+    width: 420px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 23px 0px 2px 37px;
+    float: right;
+}
+
+.cuerpo > .texto-imagen > .texto {
+    width: 410px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+#codepen {
+    color: rgb(85, 212, 252);
+}
+
+.cuerpo > .texto-imagen  img {
+    width: 420px;
+    height: auto;
+}

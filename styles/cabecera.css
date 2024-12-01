@@ -1,0 +1,112 @@
+.cabecera {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: grid;
+    grid-template-columns: 0.4fr 0.75fr 0.5fr 1fr;
+    align-items: center;
+}
+
+.cabecera >.columna-1 img {
+    width: 135px;
+    height: 100%;
+    background-color: black;
+    padding-left: 20px;
+}
+
+.cabecera > .columna-2 > .texto-suelto {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8em;
+    font-weight: 600;
+    font-style: normal;
+    padding-top: 13px;
+    padding-left: 40px;
+    color: rgb(236, 225, 135);
+}
+
+.cabecera > .columna-2 > .links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-bottom: 18px;
+}
+
+.cabecera > .columna-2 > .links > .link a {
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    font-weight: 900;
+    font-style: normal;
+    color: white;
+    padding-left: 10px;
+    text-decoration: none;
+    
+}
+
+.cabecera > .columna-3 {
+    color: rgb(161, 172, 172);
+    font-family: "Roboto", sans-serif;
+    font-size: 0.9em;
+    font-weight: 500;
+    padding-top: 7px;
+    padding-left: 5px;
+}
+
+.cabecera > .columna-3 > .boton {
+    color: rgb(161, 172, 172);
+    background-color: black;
+    border: 1px solid black;
+}
+
+.cabecera > .columna-3 > .boton:hover {
+    color: rgb(54, 56, 63);
+    background-color: white;
+    border: 1px solid rgb(122, 118, 118);
+}
+
+.cabecera > .columna-3 > button  i {
+    padding-left: 10px;
+}
+.columna-4 {
+    display: grid;
+    grid-template-columns: 0.9fr 0.3fr 0.8fr 0.8fr;
+    place-items: center;
+}
+
+.boton {
+    color: white;
+    background-color: rgb(54, 56, 63);
+    border-top: 1px solid rgb(54, 56, 63);
+    border-left: 1px solid rgb(54, 56, 63);
+    font-family: "Ubuntu", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
+    padding: 12px 19px;
+    margin: 3px;
+    border-radius: 3px;
+    transition: all 0.2s;
+}
+
+.boton:hover {
+    color: rgb(54, 56, 63);
+    background-color: white;
+    border: 1px solid rgb(122, 118, 118);
+}
+
+.cabecera > .columna-4 > .create  i {
+    color: rgb(75, 206, 121);
+    font-size: 17px;
+    padding-left: 5px;
+}
+.cabecera > .columna-4 > .lupa i {
+    align-content: center;
+    font-size: 25px;
+    font-weight: 700;
+    transition: all 0.2s;
+}
+
+.cabecera > .columna-4 > .lupa i:hover {
+    align-content: center;
+    font-size: 18px;
+}
+
