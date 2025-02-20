@@ -1,7 +1,7 @@
 
-#Notas sobre el proyecto
+## Notas sobre el proyecto
 
-#Proyecto desarrollado por Iñaki Mendigutxia
+### Proyecto desarrollado por Iñaki Mendigutxia
 
 En los elementos que he entendido que eran activos he usado los diferentes tipos de elementos enseñados por el profesor:
 
